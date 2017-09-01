@@ -9,28 +9,75 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:orientation="vertical"
+    android:background="#00A9A5"
     tools:context="ca.campbell.simplecalc.MainActivity">
 
     <EditText
         android:id="@+id/num1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textColorHint="@color/colorAccent"
+        android:textColorHint="#0B5351"
         android:hint="@string/enter_hint" />
+
+
     <EditText
         android:id="@+id/num2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textColorHint="#0B5351"
         android:hint="@string/enter_hint" />
+
     <Button
         android:id="@+id/add"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="addNums"
-        android:text="@string/add" />
+        android:text="@string/add"
+        android:background="#0B5351"
+        android:textColor="#4E8098"
+        />
+
+    <Button
+        android:id="@+id/substract"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="substractNums"
+        android:text="@string/substract"
+        android:background="#0B5351"
+        android:textColor="#4E8098"
+        />
+
+    <Button
+        android:id="@+id/divide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="divideNums"
+        android:text="@string/divide"
+        android:background="#0B5351"
+        android:textColor="#4E8098" />
+
+    <Button
+        android:id="@+id/multiply"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="multiplyNums"
+        android:text="@string/multiply"
+        android:background="#0B5351"
+        android:textColor="#4E8098"/>
+
+    <Button
+        android:id="@+id/clearInputs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="clearData"
+        android:text="@string/clearInputs"
+        android:background="#0B5351"
+        android:textColor="#4E8098"/>
+
     <TextView
         android:id="@+id/result"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="The answer will be here" />
+        android:text="@string/result"
+        android:textColor="#0B5351"/>
 </LinearLayout>
