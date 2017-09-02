@@ -8,13 +8,6 @@ import android.widget.TextView;
 
 import java.util.regex.*;
 
-//  TODO: add buttons & methods for subtract, multiply, divide
-//  TODO: extra input validation: no divide by zero
-
-//  TODO: add a clear button that will clear the result & input fields
-
-//  TODO: the hint for the result widget is hard coded, put it in the strings file
-
 public class MainActivity extends AppCompatActivity {
     EditText etNum1, etNum2;
     TextView result;
@@ -32,9 +25,8 @@ public class MainActivity extends AppCompatActivity {
         etNum2 = (EditText) findViewById(R.id.num2);
         result = (TextView) findViewById(R.id.result);
 
-    }  //onCreate()
+    }
 
-    // TODO: input validation: set text to show error
     public void addNums(View v) {
         num1Str = etNum1.getText().toString();
         num2Str = etNum2.getText().toString();
@@ -47,9 +39,7 @@ public class MainActivity extends AppCompatActivity {
         else
             result.setText(R.string.invInput);
 
-
-
-    }  //addNums()
+    }
 
     public void substractNums(View v){
         num1Str = etNum1.getText().toString();
