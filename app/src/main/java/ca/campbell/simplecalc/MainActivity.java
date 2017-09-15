@@ -11,7 +11,7 @@ import java.util.regex.*;
 public class MainActivity extends AppCompatActivity {
     EditText etNum1, etNum2;
     TextView result;
-    private TextView msgHeaderNum1, msgHeaderNum2, msg;
+
     String num1Str, num2Str;
 
     double num1, num2;
