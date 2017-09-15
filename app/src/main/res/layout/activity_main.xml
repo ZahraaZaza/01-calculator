@@ -9,14 +9,14 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:orientation="vertical"
-    android:background="#00A9A5"
+    android:background="@color/colorTurquoise"
     tools:context="ca.campbell.simplecalc.MainActivity">
 
     <EditText
         android:id="@+id/num1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textColorHint="#0B5351"
+        android:textColorHint="@color/colorGreenish"
         android:hint="@string/enter_hint" />
 
 
@@ -24,7 +24,7 @@
         android:id="@+id/num2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textColorHint="#0B5351"
+        android:textColorHint="@color/colorGreenish"
         android:hint="@string/enter_hint" />
 
     <Button
@@ -33,8 +33,8 @@
         android:layout_height="wrap_content"
         android:onClick="addNums"
         android:text="@string/add"
-        android:background="#0B5351"
-        android:textColor="#4E8098"
+        android:background="@color/colorGreenish"
+        android:textColor="@color/colorGrayBlue"
         />
 
     <Button
@@ -43,8 +43,8 @@
         android:layout_height="wrap_content"
         android:onClick="substractNums"
         android:text="@string/substract"
-        android:background="#0B5351"
-        android:textColor="#4E8098"
+        android:background="@color/colorGreenish"
+        android:textColor="@color/colorGrayBlue"
         />
 
     <Button
@@ -53,8 +53,8 @@
         android:layout_height="wrap_content"
         android:onClick="divideNums"
         android:text="@string/divide"
-        android:background="#0B5351"
-        android:textColor="#4E8098" />
+        android:background="@color/colorGreenish"
+        android:textColor="@color/colorGrayBlue" />
 
     <Button
         android:id="@+id/multiply"
@@ -62,8 +62,8 @@
         android:layout_height="wrap_content"
         android:onClick="multiplyNums"
         android:text="@string/multiply"
-        android:background="#0B5351"
-        android:textColor="#4E8098"/>
+        android:background="@color/colorGreenish"
+        android:textColor="@color/colorGrayBlue"/>
 
     <Button
         android:id="@+id/clearInputs"
@@ -71,13 +71,13 @@
         android:layout_height="wrap_content"
         android:onClick="clearData"
         android:text="@string/clearInputs"
-        android:background="#0B5351"
-        android:textColor="#4E8098"/>
+        android:background="@color/colorGreenish"
+        android:textColor="@color/colorGrayBlue"/>
 
     <TextView
         android:id="@+id/result"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/result"
-        android:textColor="#0B5351"/>
+        android:textColor="@color/colorGreenish"/>
 </LinearLayout>
